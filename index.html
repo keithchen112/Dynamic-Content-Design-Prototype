@@ -1,0 +1,156 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>MOTUS PARKOUR APP PROTOTYPE</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+  
+<body>
+    
+    <form class="motus_box" id="filters" action="#">
+        <h4>FILTER PROGRAMS</h4>
+        
+        <hr>
+        <!--CHECK BOXES-->
+        <div id="filter-group-1" class="filter-group-padding">
+            <input type="checkbox" id="option_A" class="option_filter" name="Option A" value="optionA">
+            <label for="option_A">Beginner</label>
+            
+                </br>
+        
+            <input type="checkbox" id="option_B" class="option_filter" name="Option B" value="optionB">
+            <label for="option_B">Intermediate</label>
+                </br>     
+    
+            <input type="checkbox" id="option_C" class="option_filter" name="Option C" value="optionC">
+            <label for="option_C">Advanced</label>
+    
+                <hr>
+    
+            <input type="checkbox" id="option_D" class="option_filter" name="Option D" value="optionD">
+            <label for="option_D">$100 - $150</label>
+    
+            <span>
+                <input type="checkbox" id="option_E" class="option_filter" name="Option E" value="optionE">
+                <label for="option_E">$150 - $200</label>
+            </span>
+    
+            </br> 
+    
+            <input type="checkbox" id="option_F" class="option_filter" name="Option F" value="optionF">
+            <label for="option_F">$200 - $250</label>
+    
+                <hr>
+    
+            <input type="checkbox" id="option_G" class="option_filter" name="Option G" value="optionG">
+            <label for="option_G">Burnaby</label>
+    
+            <span>
+                <input type="checkbox" id="option_H" class="option_filter" name="Option H" value="optionH">
+                <label for="option_H">Vancouver</label>
+            </span>
+    
+            </br> 
+
+            <input type="checkbox" id="option_I" class="option_filter" name="Option I" value="optionI">
+            <label for="option_I">Richmond</label>
+        </div>
+
+        <hr>
+        <!--RESET BUTTON-->
+        <div class="filter_reset">
+            <input class="" type="reset" id="reset" name="RESET">
+        </div>
+    </form>
+
+    <!--PROGRAM BOXES-->
+    <div id="filter">
+        <button class="btn1 item_program begin price1 vancouver">BEGINNER VAULTING</button>
+        <div id="program_div1" class="program_box">
+            <img src="img/program_img2_270x162.jpg">
+            <div id="text_box1">
+                <h5>BEGINNER VAULTING</h5>
+                <h6>$130.00 VANCOUVER</h6>
+                <p class="text_box_hover">Students will learn proper technique and landing while vaulting over urban architecture. Students must take the pre-requiste Beginner Vault program and passed all tests.<span class="sign-up"><a href="4">SIGN UP</a></span></p>
+            </div>
+        </div>
+        <button class="btn2 item_program inter price3 vancouver">INTERMEDIATE VAULTING</button>
+        <div id="program_div2" class="program_box">
+            <img src="img/program_img1_270x162.jpg">
+            <div id="text_box2">
+                <h5>INTERMEDIATE VAULTING</h5>
+                <h6>$210.00 VANCOUVER</h6>
+                <p class="text_box_hover">Students will learn proper technique and landing while vaulting over urban architecture. Students must take the pre-requiste Beginner Vault program and passed all tests.<span class="sign-up"><a href="4">SIGN UP</a></span></p>
+            </div>
+        </div>
+        <button class="btn3 item_program begin price1 richmond">BEGINNER CONDITIONING</button>
+        <div id="program_div3" class="program_box">
+            <img src="img/program_img3_270x162.jpg">
+            <div id="text_box3">
+                <h5>BEGINNER CONDITIONING</h5>
+                <h6>$125.00 RICHMOND</h6>
+                <p class="text_box_hover">Students will learn proper technique and landing while vaulting over urban architecture. Students must take the pre-requiste Beginner Vault program and passed all tests.<span class="sign-up"><a href="4">SIGN UP</a></span></p>
+            </div>
+        </div>
+        <button class="btn4 item_program inter price2 richmond">INTERMEDIATE COURSE</button>
+        <div id="program_div4" class="program_box">
+            <img src="img/program_img4_270x162.jpg">
+            <div id="text_box4">
+                <h5>INTERMEDIATE COURSE</h5>
+                <h6>$175.00 RICHMOND</h6>
+                <p class="text_box_hover">Students will learn proper technique and landing while vaulting over urban architecture. Students must take the pre-requiste Beginner Vault program and passed all tests.<span class="sign-up"><a href="4">SIGN UP</a></span></p>
+            </div>
+        </div>
+        <button class="btn5 item_program adv price3 burnaby">ADVANCED JUMPING</button>
+        <div id="program_div5" class="program_box">
+            <img src="img/program_img5_270x162.jpg">
+            <div id="text_box5">
+                <h5>ADVANCED JUMPING</h5>
+                <h6>$225.00 BURNABY</h6>
+                <p class="text_box_hover">Students will learn proper technique and landing while vaulting over urban architecture. Students must take the pre-requiste Beginner Vault program and passed all tests.<span class="sign-up"><a href="4">SIGN UP</a></span></p>
+            </div>
+        </div>
+        <button class="btn6 item_program begin price1 burnaby">BEGINNER JUMPING</button>
+        <div id="program_div6" class="program_box">
+            <img src="img/program_img6_270x162.jpg">
+            <div id="text_box6">
+                <h5>BEGINNER JUMPING</h5>
+                <h6>$125.00 BURNABY</h6>
+                <p class="text_box_hover">Students will learn proper technique and landing while vaulting over urban architecture. Students must take the pre-requiste Beginner Vault program and passed all tests.<span class="pull-right sign-up"><a>SIGN UP</a></span></p>
+            </div>
+        </div>
+        <button class="btn7 item_program begin price1 burnaby">BEGINNER VAULTING</button>
+        <div id="program_div7" class="program_box">
+            <img src="img/program_img7_270x162.jpg">
+            <div id="text_box7">
+                <h5>BEGINNER VAULTING</h5>
+                <h6>$125.00 BURNABY</h6>
+                <p class="text_box_hover">Students will learn proper technique and landing while vaulting over urban architecture. Students must take the pre-requiste Beginner Vault program and passed all tests.<span class="pull-right sign-up"><a>SIGN UP</a></span></p>
+            </div>
+        </div>
+        <button class="btn8 item_program adv price2 burnaby">ADVANCED CLIMBING</button>
+        <div id="program_div8" class="program_box">
+            <img src="img/program_img8_270x162.jpg">
+            <div id="text_box8">
+                <h5>ADVANCED CLIMBING</h5>
+                <h6>$190.00 BURNABY</h6>
+                <p class="text_box_hover">Students will learn proper technique and landing while vaulting over urban architecture. Students must take the pre-requiste Beginner Vault program and passed all tests.<span class="pull-right sign-up"><a>SIGN UP</a></span></p>
+            </div>
+        </div>
+        <button class="btn9 item_program adv price3 burnaby">ADVANCED VAULTING</button>
+        <div id="program_div9" class="program_box">
+            <img src="img/program_img9_270x162.jpg">
+            <div id="text_box9">
+                <h5>ADVANCED VAULTING</h5>
+                <h6>$220.00 BURNABY</h6>
+                <p class="text_box_hover">Students will learn proper technique and landing while vaulting over urban architecture. Students must take the pre-requiste Beginner Vault program and passed all tests.<span class="pull-right sign-up"><a>SIGN UP</a></span></p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
